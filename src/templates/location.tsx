@@ -119,7 +119,6 @@ const Location: Template<TemplateRenderProps> = ({
   document,
 }) => {
   const {
-    _site,
     name,
     address,
     hours,
@@ -130,7 +129,7 @@ const Location: Template<TemplateRenderProps> = ({
 
   return (
     <>
-      <PageLayout _site={_site}>
+      <PageLayout >
         <Banner text={name}>
           <div className="bg-white p-10 items-center text-center flex-col gap-y-4 rounded-lg drop-shadow-md">
             <div className="text-black text-base">Visit Us Today!</div>
